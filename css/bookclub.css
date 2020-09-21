@@ -1,0 +1,158 @@
+/* bookclub */
+
+/* =================================================================================================== */
+/* =================================================================================================== */
+
+body {
+    /* old bigget type of body text */
+	/* font-family: 'Lucida Grande', 'Helvetica Neue', sans-serif;
+	font-size: 13px; */               
+    
+    /* update Vedana main type of a text */
+    font-family: Verdana, Arial, Helvetica, sans-serif;
+    font-size: 12px;
+}
+
+
+.book_info_label {                         /* div for current information block, city, region, results */
+    position: absolute;
+    top: 310px;
+    left: 15px;
+    width: 190px;
+    color: black;
+    text-align: left;      /* justify is a viable option */
+    font-family: Verdana, Arial, Helvetica, sans-serif;
+    font-size: 11px; 
+}
+
+.book_description {                         /* div for current information block, city, region, results */
+    position: absolute;
+    top: 325px;
+    left: 15px;
+    width: 405px;
+    height: 150px;
+    color: black;
+    border: 1px solid #8AC007;
+    border-radius: 5px;
+    background-color: #b0c4de;
+    text-align: left;      /* justify is a viable option */
+    font-family: Verdana, Arial, Helvetica, sans-serif;
+    font-size: 11px; 
+}
+
+
+.club_info_label {                         /* div for current information block, city, region, results */
+    position: absolute;
+    top: 85px;
+    left: 220px;
+    width: 190px;
+    color: black;
+    text-align: left;      /* justify is a viable option */
+    font-family: Verdana, Arial, Helvetica, sans-serif;
+    font-size: 11px; 
+}
+
+.club_info_button {                         /* div for current information block, city, region, results */
+    position: absolute;
+    top: 85px;
+    left: 310px;
+    width: 90px;
+    color: black;
+    text-align: left;      /* justify is a viable option */
+    font-family: Verdana, Arial, Helvetica, sans-serif;
+    font-size: 11px; 
+}
+
+.club_description {                         /* div for current information block, city, region, results */
+    position: absolute;
+    top: 105px;
+    left: 220px;
+    width: 200px;
+    height: 200px;
+    color: black;
+    border: 1px solid #8AC007;
+    border-radius: 5px;
+    background-color: #b0c4de;
+    text-align: left;      /* justify is a viable option */
+    font-family: Verdana, Arial, Helvetica, sans-serif;
+    font-size: 11px; 
+}
+
+.user_info_label {                         /* div for current information block, city, region, results */
+    position: absolute;
+    top: 85px;
+    left: 15px;
+    width: 190px;
+    color: black;
+    text-align: left;      /* justify is a viable option */
+    font-family: Verdana, Arial, Helvetica, sans-serif;
+    font-size: 11px; 
+}
+
+.user_button {                         /* div for current information block, city, region, results */
+    position: absolute;
+    top: 85px;
+    left: 75px;
+    width: 90px;
+    color: black;
+    text-align: left;      /* justify is a viable option */
+    font-family: Verdana, Arial, Helvetica, sans-serif;
+    font-size: 11px; 
+}
+
+.user_info {                         /* div for current information block, city, region, results */
+    position: absolute;
+    top: 105px;
+    left: 15px;
+    width: 190px;
+    height: 200px;
+    color: black;
+    border: 1px solid #8AC007;
+    border-radius: 5px;
+    background-color: #b0c4de;
+    text-align: left;      /* justify is a viable option */
+    font-family: Verdana, Arial, Helvetica, sans-serif;
+    font-size: 11px; 
+}
+
+.map_info {                         /* div for current information block, city, region, results */
+    position: absolute;
+    top: 105px;
+    left: 435px;
+    width: 190px;
+    height: 300px;
+    color: black;
+    border: 1px solid #8AC007;
+    border-radius: 5px;
+    background-color: #b0c4de;
+    text-align: left;      /* justify is a viable option */
+    font-family: Verdana, Arial, Helvetica, sans-serif;
+    font-size: 11px; 
+}
+
+.map_info_label {                         /* div for current information block, city, region, results */
+    position: absolute;
+    top: 85px;
+    left: 435px;
+    width: 190px;
+    color: black;
+    text-align: left;      /* justify is a viable option */
+    font-family: Verdana, Arial, Helvetica, sans-serif;
+    font-size: 11px; 
+}
+
+
+.maps {                         /* div for current information block, city, region, results */
+    position: absolute;
+    top: 85px;
+    left: 640px;
+    width: 600px;
+    height: 600px;
+    color: black;
+    border: 1px solid #8AC007;
+    border-radius: 5px;
+    /* background-color: #b0c4de; */
+    text-align: left;      /* justify is a viable option */
+    font-family: Verdana, Arial, Helvetica, sans-serif;
+    font-size: 11px; 
+}

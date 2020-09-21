@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8">
+    <title>Linked Data Book Club (ver.01) (for HackaLod 2015, Den Haag) </title>
+    
+    <link rel="stylesheet" href="css/jquery-ui.css">
+    <link rel="stylesheet" href="css/bookclub.css">
+
+    <!-- ------------------------------------------------------------------------------- -->
+    
+    <script type="text/javascript" src="javascript/jquery-2.1.1.min.js"></script>
+    <script src="http://maps.googleapis.com/maps/api/js?key=AIzaSyAlz5jHuM57a9KCuL6qjTk50l30OTnMQ6Y&sensor=false"> </script>
+      
+    <script src="javascript/sparql.js"></script>                                 <!-- Dydra javascript API --> 
+    <script src="javascript/dydra.js"></script>                                 <!-- Dydra javascript API -->  
+    <script src="javascript/dydra_settings.js"></script>                        <!-- Dydra settings (API key, account name) --> 
+    <script src="javascript/dydra_show-settings.js"></script>                   <!-- Dydra settings related --> 
+    
+    
+    <!-- ------------------------------------------------------------------------------- -->
+    
+    <script type="text/javascript" src="javascript/settings.js"></script>
+    <script type="text/javascript" src="javascript/queries.js"></script> 
+    <script type="text/javascript" src="javascript/http.js"></script>
+    <script type="text/javascript" src="javascript/common_data.js"></script>
+    
+    <script type="text/javascript" src="javascript/dydra_queries.js"></script>
+    <script type="text/javascript" src="javascript/kb_queries.js"></script>
+    <script type="text/javascript" src="javascript/users.js"></script>
+    <script type="text/javascript" src="javascript/books.js"></script>
+    <script type="text/javascript" src="javascript/clubs.js"></script>
+    <script type="text/javascript" src="javascript/libraries.js"></script>
+    <script type="text/javascript" src="javascript/maps.js"></script>
+    <script type="text/javascript" src="javascript/other.js"></script>
+       
+</head>
+    
+    
+<!-- ------------------------------------------------------------------------------- -->
+<!-- ------------------------------------------------------------------------------- -->
+<body>
+  
+     
+ <p>Linked Data Book Club (draft ver.02) (Hack-a-Lod 2015, Den Haag)</p>    
+    
+ Book search: <input id="usernameinput" type="text" >  
+    
+  
+ <button onclick="search_book_by_title()">Book search</button>    .......
+ <button onclick="RUN_ALL()">Refresh</button>   
+    
+ <br>
+ <!-- <button onclick="retrieve_users_from_Dydra()">show_dydra_users</button>
+ <button onclick="retrieve_clubs_from_Dydra()">test_dydra_clubs</button> 
+ <button onclick="update_query_tmp()">test_dydra_insert</button> .......-->
+    
+ <!-- <button onclick="retrieve_from_KB()">test_KB_QUERY</button> -->
+ 
+
+ <label class="user_info_label"><b>User info</b></label>  <button class="user_button" onclick="show_my_libraries()">My Libraries</button>  
+ <div id="user_info_detailed" class="user_info"></div>
+    
+ 
+ <!-- <input id="userbookinput" type="text" > 
+ <button onclick="insert_book()">insert the book</button>     -->
+   
+ <label class="club_info_label"><b>User interests</b></label>   <button class="club_info_button" onclick="retrieve_user_clubs()">My Interests</button>   
+ <div id="club_info_detailed" class="club_description"></div>    
+
+ <label class="map_info_label"><b>Map related info</b></label>
+ <div id="map_info" class="map_info"></div>  
+    
+    
+ <label class="book_info_label"><b>We found your book</b></label>
+ <div id="book_info" class="book_description"></div>     
+    
+    
+ <div id="googleMap" class="maps"></div> 
+    
+    
+    
+</body>
+
+</html>
